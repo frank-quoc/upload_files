@@ -24,7 +24,7 @@ def make_dict_of_ids():
         # Create a list of the filenames
         list_of_files = zip_obj.namelist()
         # This dict will be {key:value} of {file_name: None} at first
-        dict_of_files = dict.fromkeys(list_of_files, None)  
+        dict_of_files = {}
 
         pattern = "^Q-\d{5}"
 

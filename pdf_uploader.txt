@@ -1,0 +1,6 @@
+1. Unzip the folder
+2. loop through the folder and grab the file
+3. Regex to grab file doc number 
+4. Go into the .cvs file and find the opportunity internal id
+5. Make the correct json format
+6. Upload up to Hubspot
